@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box {
+    background: white;
+    width: 450px;
+    height: 500px;
+    position: relative;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 7.7%;
+    padding: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background: #e84393;
+    color: wheat;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+form input[type="submit"]:hover {
+    background: orangered;
+    border: 1px solid gray;
+    color: black;
+}
+
+.box span {
+    color: #e84393;
+    cursor: pointer;
+}
+
+.htext {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 600px;
+    color: wheat;
+}
+
+.htext h1 {
+    font-size: 2em;
+
+}
+
+.htext h2 {
+    font-size: 4em;
+
+}
+
+.htext span {
+    color: #e84393;
+}
+
+.htext p {
+    margin: 15px 0;
+    line-height: 2em;
+}
+
+.htext a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.htext a:hover {
+    background: #877d90;
+}
